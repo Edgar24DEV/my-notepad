@@ -1,0 +1,36 @@
+
+form button:disabled {
+  background-color: gray;
+}
+form label {
+  font-weight: bold;
+}
+
+textarea{
+  width: 100%;
+  resize: none;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px;
+}
+#note-title{
+  font-size: 60px;
+  text-align: left;
+  line-height: 50px;
+  align-content:center;
+}
+
+#note-text{
+  font-size: 20px;
+  height: 600px;
+}
+
+button{
+  margin: 5px;
+  padding: 15px;
+}
+
+button:hover{
+  box-shadow: 0px 0px 5px 5px #7c7a7a68;
+  background-color:rgb(69, 149, 235);
+}

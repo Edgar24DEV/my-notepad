@@ -1,0 +1,67 @@
+#note-container {
+  background-color: #fff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.red {
+  background-color: indianred;
+  cursor: pointer;
+}
+.center {
+  margin-top: 15px;
+  text-align: center;
+}
+form button:disabled {
+  background-color: gray;
+}
+form label {
+  font-weight: bold;
+}
+
+textarea{
+  width: 100%;
+  resize: none;
+  padding: 5px;
+  border-style: none;
+  border-radius: 5px;
+}
+#note-title{
+  font-size: 60px;
+  text-align: left;
+  line-height: 50px;
+  align-content:center;
+}
+
+#note-text{
+  font-size: 20px;
+  height: 600px;
+  width: 100%;
+  background-color: white;
+}
+nav{
+  margin: 15px;
+}
+button{
+  margin: 5px;
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+button:hover{
+  background-color: rgb(69, 149, 235);
+}
+.borrar:hover{
+  background-color: rgb(247, 32, 32);
+}
+.add:hover{
+  background-color:#0de154;
+}
+
+.editar{
+  background-color: rgb(60, 64, 92);
+  
+}
+.editar button{
+  margin: 0%;
+  border-radius: 0px;
+}

@@ -1,0 +1,24 @@
+
+<nav>
+  <button routerLink="">Back to List</button>
+  <button class="borrar" (click)="deleteNote()">Delete</button>
+  <button (click)="saveNote()" class="button add" type="submit">Save Note</button>
+</nav>
+
+<div class="container">
+  
+    <form [formGroup]="editNoteForm" (ngSubmit)="saveNote()">
+      @if(note){
+      <div>
+        <label for="note-title">
+          <textarea id="note-title" formControlName="title" placeholder="Title"></textarea>
+        </label>
+      </div>
+      <div>
+        <label for="note-text">
+        <textarea id="note-text" formControlName="text" placeholder="Write here"></textarea>
+        </label>
+      </div>
+    }
+    </form>
+</div>

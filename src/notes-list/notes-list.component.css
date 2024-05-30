@@ -1,0 +1,52 @@
+.notes {
+  width: 80%;
+  margin: 0 10%;
+  padding: 0%;
+  overflow: hidden;
+}
+button{
+  margin-bottom: 20px;
+  max-height: 200px;
+  overflow:hidden;
+}
+.note-title{
+  padding: 5px;
+}
+.note-text{
+  padding: 5px;
+}
+.notes li {
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 5px 5px #7c7a7a68;
+}
+.notes li:hover{
+  box-shadow: 0px 0px 5px 5px #7c7a7a68;
+}
+li button {
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 5px;
+  cursor: pointer;
+  padding-bottom: 0;
+}
+.borrar{
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+  border: 2px;
+  line-height: 30px;
+  border-radius: 0 0 15px 15px;
+}
+.borrar:hover{
+  background-color:rgb(69, 149, 235);
+}
+.btn-add:hover{
+  background-color:rgb(69, 149, 235);
+  box-shadow: 0px 0px 2px 2px #7c7a7a68;
+}
