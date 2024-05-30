@@ -25,7 +25,8 @@ button{
   box-shadow: 5px 5px #7c7a7a68;
 }
 .notes li:hover{
-  box-shadow: 0px 0px 5px 5px #7c7a7a68;
+  background-color: #d0d0d0;
+  box-shadow: 5px 5px #fffefe8f;
 }
 li button {
   width: 100%;
